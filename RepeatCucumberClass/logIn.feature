@@ -28,3 +28,10 @@ Examples:
 |user2|ertyu234|
 |user3|ghjk2345|
 
+
+Scenario: As a user should not login using invalid credential
+When user type userid on user text box
+And user type password on password text box
+And user click on login button
+Then user should login to the profile page
+And close browser
