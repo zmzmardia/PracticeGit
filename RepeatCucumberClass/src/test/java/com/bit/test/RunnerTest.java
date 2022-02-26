@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 @RunWith(Cucumber.class)
 @CucumberOptions(features = {"C:\\Users\\Mounia2016\\OneDrive\\Desktop\\BTC31072021M\\RepeatCucumberClass\\logIn.feature" },
 glue = {"LogInStepDefinetion" }, 
-tags = "@reg", monochrome = true)
+tags = "@reg", monochrome = true, plugin = {"html:C:\\Users\\Mounia2016\\Desktop\\ImportProject\\PracticeGit\\RepeatCucumberClass\\target\\cucumberReports.html"})
 public class RunnerTest {
 
 }
