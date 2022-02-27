@@ -35,3 +35,10 @@ And user type password on password text box
 And user click on login button
 Then user should login to the profile page
 And close browser
+
+Scenario: As a user should not login using valid email and invalid password
+When user type userid on user text box
+And user type password on password text box
+And user click on login button
+Then user should login to the profile page
+And close browser
